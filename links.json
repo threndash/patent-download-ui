@@ -1,0 +1,1857 @@
+[
+  {
+    "table_name": "pg_applicant_not_disambiguated",
+    "description": "Raw information on non-inventor applicants.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_assignee_disambiguated",
+    "description": "Disambiguated assignee information for pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_assignee_not_disambiguated",
+    "description": "Raw assignee information for pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_cpc_at_issue",
+    "description": "CPC classification data for all applications at the time of submission.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_cpc_current",
+    "description": "Current CPC classification data for all applications (applied retrospectively to all applications).",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_cpc_title",
+    "description": "This table is identical to g_cpc_title, provided here for ease of access. CPC group classification at issue of the granted patent.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_foreign_priority",
+    "description": "Foreign priority data for pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_gov_interest",
+    "description": "Mapping of patent numbers to raw government interest text",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_gov_interest_contracts",
+    "description": "Mapping of Federal contract award numbers to patent numbers",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_gov_interest_org",
+    "description": "Federal agencies with government interests in patents",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_granted_pgpubs_crosswalk",
+    "description": "Table mapping patent application's to their corresponding granted patent numbers",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_inventor_disambiguated",
+    "description": "Disambiguated inventor information from pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_inventor_not_disambiguated",
+    "description": "Raw inventor information from pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_ipc_at_issue",
+    "description": "International Patent Classification data for all applications (as of application date).",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_location_disambiguated",
+    "description": "Disambiguated location data for inventors, assignees, and applicants",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_location_not_disambiguated",
+    "description": "Raw location data, including latitude and longitude for pre-granted published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_pct_data",
+    "description": "PCT (Patent Cooperation Treaty) or regional filing data for pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_persistent_assignee",
+    "description": "This table tracks how assignee unique IDs change from update to update",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_persistent_inventor",
+    "description": "This table tracks how inventor unique IDs change from update to update",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_published_application",
+    "description": "Published application data.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_published_application_abstract",
+    "description": "Abstract data for published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_rel_app_text",
+    "description": "Descriptions of related patent applications for pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_us_rel_doc",
+    "description": "U.S. related documents (post-2005 applications only).",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_uspc_at_issue",
+    "description": "USPC classification data for pre-grant published applications at application.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_wipo_technology",
+    "description": "WIPO technology classification of pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_applicant_not_disambiguated",
+    "description": "Raw information on non-inventor applicants",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_application",
+    "description": "Information on the applications for granted patent.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_assignee_disambiguated",
+    "description": "Disambiguated assignee data for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_assignee_not_disambiguated",
+    "description": "Raw assignee data for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_attorney_disambiguated",
+    "description": "Disambiguated lawyer data for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_attorney_not_disambiguated",
+    "description": "Raw lawyer data for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_botanic",
+    "description": "Information about granted plant patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_cpc_at_issue",
+    "description": "CPC classification data for granted patents at the time of their issue.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_cpc_current",
+    "description": "Current CPC classifications of granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_cpc_title",
+    "description": "CPC group classification at issue of the granted patent.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_examiner_not_disambiguated",
+    "description": "Raw information about the examiner for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_figures",
+    "description": "Number of figures and drawing sheets included with the granted patent.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_foreign_citation",
+    "description": "Citations made to foreign patents by granted U.S. patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_foreign_priority",
+    "description": "Information about an earlier patent filing in a foreign country which gives the claim priority.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_gov_interest",
+    "description": "Mapping of patent numbers to raw government interest text",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_gov_interest_contracts",
+    "description": "Mapping of Federal contract award numbers to patent numbers",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_gov_interest_org",
+    "description": "Federal agencies with government interests in patents",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_inventor_disambiguated",
+    "description": "Disambiguated inventor data for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_inventor_not_disambiguated",
+    "description": "Raw inventor data for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_ipc_at_issue",
+    "description": "International Patent Classification data for all patents (as of publication date).",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_location_disambiguated",
+    "description": "Disambiguated location data, including latitude and longitude for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_location_not_disambiguated",
+    "description": "Raw location data, including latitude and longitude for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_other_reference",
+    "description": "Non-patent citations (e.g. articles, papers, etc.) mentioned in granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_patent",
+    "description": "Data on granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_patent_abstract",
+    "description": "Abstract data for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_pct_data",
+    "description": "PCT (Patent Cooperation Treaty) or regional filing data for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_persistent_assignee",
+    "description": "Persistent Assignee Disambiguation, connecting past update assignee ids to current ids.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_persistent_inventor",
+    "description": "Persistent Inventor Disambiguation, connection from past data update inventor ids to current ids.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_rel_app_text",
+    "description": "Descriptions of related patent applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_us_application_citation",
+    "description": "Citations made to U.S. patent applications by U.S. patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_us_patent_citation",
+    "description": "Citations made to U.S. granted patents by U.S. patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_us_rel_doc",
+    "description": "U.S. related documents for granted patents from 2002 and after.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_us_term_of_grant",
+    "description": "U.S. term of grant data.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_uspc_at_issue",
+    "description": "USPC classification data for all granted patents at issue.",
+    "url": "https://"
+  },
+  {
+    "table_name": "g_wipo_technology",
+    "description": "WIPO technology classification of the patent for granted patents.",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2024",
+    "description": "Granted Patents Brief Summary Text (2024)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2023",
+    "description": "Granted Patents Brief Summary Text (2023)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2022",
+    "description": "Granted Patents Brief Summary Text (2022)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2021",
+    "description": "Granted Patents Brief Summary Text (2021)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2020",
+    "description": "Granted Patents Brief Summary Text (2020)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2019",
+    "description": "Granted Patents Brief Summary Text (2019)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2018",
+    "description": "Granted Patents Brief Summary Text (2018)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2017",
+    "description": "Granted Patents Brief Summary Text (2017)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2016",
+    "description": "Granted Patents Brief Summary Text (2016)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2015",
+    "description": "Granted Patents Brief Summary Text (2015)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2014",
+    "description": "Granted Patents Brief Summary Text (2014)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2013",
+    "description": "Granted Patents Brief Summary Text (2013)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2012",
+    "description": "Granted Patents Brief Summary Text (2012)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2011",
+    "description": "Granted Patents Brief Summary Text (2011)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2010",
+    "description": "Granted Patents Brief Summary Text (2010)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2009",
+    "description": "Granted Patents Brief Summary Text (2009)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2008",
+    "description": "Granted Patents Brief Summary Text (2008)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2007",
+    "description": "Granted Patents Brief Summary Text (2007)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2006",
+    "description": "Granted Patents Brief Summary Text (2006)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2005",
+    "description": "Granted Patents Brief Summary Text (2005)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2004",
+    "description": "Granted Patents Brief Summary Text (2004)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2003",
+    "description": "Granted Patents Brief Summary Text (2003)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2002",
+    "description": "Granted Patents Brief Summary Text (2002)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2001",
+    "description": "Granted Patents Brief Summary Text (2001)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_2000",
+    "description": "Granted Patents Brief Summary Text (2000)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1999",
+    "description": "Granted Patents Brief Summary Text (1999)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1998",
+    "description": "Granted Patents Brief Summary Text (1998)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1997",
+    "description": "Granted Patents Brief Summary Text (1997)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1996",
+    "description": "Granted Patents Brief Summary Text (1996)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1995",
+    "description": "Granted Patents Brief Summary Text (1995)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1994",
+    "description": "Granted Patents Brief Summary Text (1994)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1993",
+    "description": "Granted Patents Brief Summary Text (1993)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1992",
+    "description": "Granted Patents Brief Summary Text (1992)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1991",
+    "description": "Granted Patents Brief Summary Text (1991)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1990",
+    "description": "Granted Patents Brief Summary Text (1990)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1989",
+    "description": "Granted Patents Brief Summary Text (1989)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1988",
+    "description": "Granted Patents Brief Summary Text (1988)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1987",
+    "description": "Granted Patents Brief Summary Text (1987)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1986",
+    "description": "Granted Patents Brief Summary Text (1986)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1985",
+    "description": "Granted Patents Brief Summary Text (1985)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1984",
+    "description": "Granted Patents Brief Summary Text (1984)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1983",
+    "description": "Granted Patents Brief Summary Text (1983)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1982",
+    "description": "Granted Patents Brief Summary Text (1982)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1981",
+    "description": "Granted Patents Brief Summary Text (1981)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1980",
+    "description": "Granted Patents Brief Summary Text (1980)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1979",
+    "description": "Granted Patents Brief Summary Text (1979)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1978",
+    "description": "Granted Patents Brief Summary Text (1978)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1977",
+    "description": "Granted Patents Brief Summary Text (1977)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_brf_sum_text_1976",
+    "description": "Granted Patents Brief Summary Text (1976)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2024",
+    "description": "Granted Patents Claims (2024)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2023",
+    "description": "Granted Patents Claims (2023)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2022",
+    "description": "Granted Patents Claims (2022)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2021",
+    "description": "Granted Patents Claims (2021)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2020",
+    "description": "Granted Patents Claims (2020)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2019",
+    "description": "Granted Patents Claims (2019)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2018",
+    "description": "Granted Patents Claims (2018)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2017",
+    "description": "Granted Patents Claims (2017)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2016",
+    "description": "Granted Patents Claims (2016)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2015",
+    "description": "Granted Patents Claims (2015)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2014",
+    "description": "Granted Patents Claims (2014)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2013",
+    "description": "Granted Patents Claims (2013)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2012",
+    "description": "Granted Patents Claims (2012)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2011",
+    "description": "Granted Patents Claims (2011)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2010",
+    "description": "Granted Patents Claims (2010)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2009",
+    "description": "Granted Patents Claims (2009)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2008",
+    "description": "Granted Patents Claims (2008)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2007",
+    "description": "Granted Patents Claims (2007)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2006",
+    "description": "Granted Patents Claims (2006)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2005",
+    "description": "Granted Patents Claims (2005)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2004",
+    "description": "Granted Patents Claims (2004)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2003",
+    "description": "Granted Patents Claims (2003)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2002",
+    "description": "Granted Patents Claims (2002)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2001",
+    "description": "Granted Patents Claims (2001)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_2000",
+    "description": "Granted Patents Claims (2000)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1999",
+    "description": "Granted Patents Claims (1999)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1998",
+    "description": "Granted Patents Claims (1998)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1997",
+    "description": "Granted Patents Claims (1997)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1996",
+    "description": "Granted Patents Claims (1996)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1995",
+    "description": "Granted Patents Claims (1995)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1994",
+    "description": "Granted Patents Claims (1994)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1993",
+    "description": "Granted Patents Claims (1993)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1992",
+    "description": "Granted Patents Claims (1992)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1991",
+    "description": "Granted Patents Claims (1991)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1990",
+    "description": "Granted Patents Claims (1990)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1989",
+    "description": "Granted Patents Claims (1989)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1988",
+    "description": "Granted Patents Claims (1988)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1987",
+    "description": "Granted Patents Claims (1987)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1986",
+    "description": "Granted Patents Claims (1986)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1985",
+    "description": "Granted Patents Claims (1985)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1984",
+    "description": "Granted Patents Claims (1984)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1983",
+    "description": "Granted Patents Claims (1983)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1982",
+    "description": "Granted Patents Claims (1982)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1981",
+    "description": "Granted Patents Claims (1981)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1980",
+    "description": "Granted Patents Claims (1980)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1979",
+    "description": "Granted Patents Claims (1979)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1978",
+    "description": "Granted Patents Claims (1978)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1977",
+    "description": "Granted Patents Claims (1977)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_claims_1976",
+    "description": "Granted Patents Claims (1976)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2024",
+    "description": "Granted Patents Detail Description Text (2024)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2023",
+    "description": "Granted Patents Detail Description Text (2023)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2022",
+    "description": "Granted Patents Detail Description Text (2022)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2021",
+    "description": "Granted Patents Detail Description Text (2021)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2020",
+    "description": "Granted Patents Detail Description Text (2020)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2019",
+    "description": "Granted Patents Detail Description Text (2019)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2018",
+    "description": "Granted Patents Detail Description Text (2018)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2017",
+    "description": "Granted Patents Detail Description Text (2017)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2016",
+    "description": "Granted Patents Detail Description Text (2016)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2015",
+    "description": "Granted Patents Detail Description Text (2015)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2014",
+    "description": "Granted Patents Detail Description Text (2014)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2013",
+    "description": "Granted Patents Detail Description Text (2013)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2012",
+    "description": "Granted Patents Detail Description Text (2012)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2011",
+    "description": "Granted Patents Detail Description Text (2011)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2010",
+    "description": "Granted Patents Detail Description Text (2010)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2009",
+    "description": "Granted Patents Detail Description Text (2009)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2008",
+    "description": "Granted Patents Detail Description Text (2008)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2007",
+    "description": "Granted Patents Detail Description Text (2007)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2006",
+    "description": "Granted Patents Detail Description Text (2006)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2005",
+    "description": "Granted Patents Detail Description Text (2005)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2004",
+    "description": "Granted Patents Detail Description Text (2004)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2003",
+    "description": "Granted Patents Detail Description Text (2003)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2002",
+    "description": "Granted Patents Detail Description Text (2002)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2001",
+    "description": "Granted Patents Detail Description Text (2001)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_2000",
+    "description": "Granted Patents Detail Description Text (2000)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1999",
+    "description": "Granted Patents Detail Description Text (1999)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1998",
+    "description": "Granted Patents Detail Description Text (1998)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1997",
+    "description": "Granted Patents Detail Description Text (1997)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1996",
+    "description": "Granted Patents Detail Description Text (1996)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1995",
+    "description": "Granted Patents Detail Description Text (1995)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1994",
+    "description": "Granted Patents Detail Description Text (1994)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1993",
+    "description": "Granted Patents Detail Description Text (1993)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1992",
+    "description": "Granted Patents Detail Description Text (1992)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1991",
+    "description": "Granted Patents Detail Description Text (1991)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1990",
+    "description": "Granted Patents Detail Description Text (1990)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1989",
+    "description": "Granted Patents Detail Description Text (1989)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1988",
+    "description": "Granted Patents Detail Description Text (1988)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1987",
+    "description": "Granted Patents Detail Description Text (1987)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1986",
+    "description": "Granted Patents Detail Description Text (1986)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1985",
+    "description": "Granted Patents Detail Description Text (1985)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1984",
+    "description": "Granted Patents Detail Description Text (1984)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1983",
+    "description": "Granted Patents Detail Description Text (1983)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1982",
+    "description": "Granted Patents Detail Description Text (1982)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1981",
+    "description": "Granted Patents Detail Description Text (1981)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1980",
+    "description": "Granted Patents Detail Description Text (1980)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1979",
+    "description": "Granted Patents Detail Description Text (1979)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1978",
+    "description": "Granted Patents Detail Description Text (1978)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1977",
+    "description": "Granted Patents Detail Description Text (1977)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_detail_desc_text_1976",
+    "description": "Granted Patents Detail Description Text (1976)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2024",
+    "description": "Granted Patents Draw Description Text (2024)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2023",
+    "description": "Granted Patents Draw Description Text (2023)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2022",
+    "description": "Granted Patents Draw Description Text (2022)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2021",
+    "description": "Granted Patents Draw Description Text (2021)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2020",
+    "description": "Granted Patents Draw Description Text (2020)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2019",
+    "description": "Granted Patents Draw Description Text (2019)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2018",
+    "description": "Granted Patents Draw Description Text (2018)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2017",
+    "description": "Granted Patents Draw Description Text (2017)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2016",
+    "description": "Granted Patents Draw Description Text (2016)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2015",
+    "description": "Granted Patents Draw Description Text (2015)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2014",
+    "description": "Granted Patents Draw Description Text (2014)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2013",
+    "description": "Granted Patents Draw Description Text (2013)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2012",
+    "description": "Granted Patents Draw Description Text (2012)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2011",
+    "description": "Granted Patents Draw Description Text (2011)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2010",
+    "description": "Granted Patents Draw Description Text (2010)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2009",
+    "description": "Granted Patents Draw Description Text (2009)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2008",
+    "description": "Granted Patents Draw Description Text (2008)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2007",
+    "description": "Granted Patents Draw Description Text (2007)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2006",
+    "description": "Granted Patents Draw Description Text (2006)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2005",
+    "description": "Granted Patents Draw Description Text (2005)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2004",
+    "description": "Granted Patents Draw Description Text (2004)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2003",
+    "description": "Granted Patents Draw Description Text (2003)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2002",
+    "description": "Granted Patents Draw Description Text (2002)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2001",
+    "description": "Granted Patents Draw Description Text (2001)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_2000",
+    "description": "Granted Patents Draw Description Text (2000)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1999",
+    "description": "Granted Patents Draw Description Text (1999)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1998",
+    "description": "Granted Patents Draw Description Text (1998)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1997",
+    "description": "Granted Patents Draw Description Text (1997)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1996",
+    "description": "Granted Patents Draw Description Text (1996)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1995",
+    "description": "Granted Patents Draw Description Text (1995)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1994",
+    "description": "Granted Patents Draw Description Text (1994)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1993",
+    "description": "Granted Patents Draw Description Text (1993)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1992",
+    "description": "Granted Patents Draw Description Text (1992)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1991",
+    "description": "Granted Patents Draw Description Text (1991)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1990",
+    "description": "Granted Patents Draw Description Text (1990)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1989",
+    "description": "Granted Patents Draw Description Text (1989)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1988",
+    "description": "Granted Patents Draw Description Text (1988)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1987",
+    "description": "Granted Patents Draw Description Text (1987)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1986",
+    "description": "Granted Patents Draw Description Text (1986)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1985",
+    "description": "Granted Patents Draw Description Text (1985)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1984",
+    "description": "Granted Patents Draw Description Text (1984)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1983",
+    "description": "Granted Patents Draw Description Text (1983)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1982",
+    "description": "Granted Patents Draw Description Text (1982)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1981",
+    "description": "Granted Patents Draw Description Text (1981)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1980",
+    "description": "Granted Patents Draw Description Text (1980)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1979",
+    "description": "Granted Patents Draw Description Text (1979)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1978",
+    "description": "Granted Patents Draw Description Text (1978)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1977",
+    "description": "Granted Patents Draw Description Text (1977)",
+    "url": "https://"
+  },
+  {
+    "table_name": "grant_draw_desc_text_1976",
+    "description": "Granted Patents Draw Description Text (1976)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2024",
+    "description": "Pre-grant Brief Description Text (2024)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2023",
+    "description": "Pre-grant Brief Description Text (2023)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2022",
+    "description": "Pre-grant Brief Description Text (2022)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2021",
+    "description": "Pre-grant Brief Description Text (2021)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2020",
+    "description": "Pre-grant Brief Description Text (2020)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2019",
+    "description": "Pre-grant Brief Description Text (2019)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2018",
+    "description": "Pre-grant Brief Description Text (2018)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2017",
+    "description": "Pre-grant Brief Description Text (2017)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2016",
+    "description": "Pre-grant Brief Description Text (2016)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2015",
+    "description": "Pre-grant Brief Description Text (2015)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2014",
+    "description": "Pre-grant Brief Description Text (2014)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2013",
+    "description": "Pre-grant Brief Description Text (2013)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2012",
+    "description": "Pre-grant Brief Description Text (2012)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2011",
+    "description": "Pre-grant Brief Description Text (2011)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2010",
+    "description": "Pre-grant Brief Description Text (2010)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2009",
+    "description": "Pre-grant Brief Description Text (2009)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2008",
+    "description": "Pre-grant Brief Description Text (2008)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2007",
+    "description": "Pre-grant Brief Description Text (2007)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2006",
+    "description": "Pre-grant Brief Description Text (2006)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2005",
+    "description": "Pre-grant Brief Description Text (2005)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2004",
+    "description": "Pre-grant Brief Description Text (2004)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2003",
+    "description": "Pre-grant Brief Description Text (2003)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2002",
+    "description": "Pre-grant Brief Description Text (2002)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_brf_sum_text_2001",
+    "description": "Pre-grant Brief Description Text (2001)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2024",
+    "description": "Pre-grant Claims (2024)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2023",
+    "description": "Pre-grant Claims (2023)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2022",
+    "description": "Pre-grant Claims (2022)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2021",
+    "description": "Pre-grant Claims (2021)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2020",
+    "description": "Pre-grant Claims (2020)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2019",
+    "description": "Pre-grant Claims (2019)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2018",
+    "description": "Pre-grant Claims (2018)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2017",
+    "description": "Pre-grant Claims (2017)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2016",
+    "description": "Pre-grant Claims (2016)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2015",
+    "description": "Pre-grant Claims (2015)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2014",
+    "description": "Pre-grant Claims (2014)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2013",
+    "description": "Pre-grant Claims (2013)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2012",
+    "description": "Pre-grant Claims (2012)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2011",
+    "description": "Pre-grant Claims (2011)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2010",
+    "description": "Pre-grant Claims (2010)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2009",
+    "description": "Pre-grant Claims (2009)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2008",
+    "description": "Pre-grant Claims (2008)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2007",
+    "description": "Pre-grant Claims (2007)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2006",
+    "description": "Pre-grant Claims (2006)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2005",
+    "description": "Pre-grant Claims (2005)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2004",
+    "description": "Pre-grant Claims (2004)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2003",
+    "description": "Pre-grant Claims (2003)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2002",
+    "description": "Pre-grant Claims (2002)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_claims_2001",
+    "description": "Pre-grant Claims (2001)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2024",
+    "description": "Pre-grant Detail Description Text (2024)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2023",
+    "description": "Pre-grant Detail Description Text (2023)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2022",
+    "description": "Pre-grant Detail Description Text (2022)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2021",
+    "description": "Pre-grant Detail Description Text (2021)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2020",
+    "description": "Pre-grant Detail Description Text (2020)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2019",
+    "description": "Pre-grant Detail Description Text (2019)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2018",
+    "description": "Pre-grant Detail Description Text (2018)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2017",
+    "description": "Pre-grant Detail Description Text (2017)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2016",
+    "description": "Pre-grant Detail Description Text (2016)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2015",
+    "description": "Pre-grant Detail Description Text (2015)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2014",
+    "description": "Pre-grant Detail Description Text (2014)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2013",
+    "description": "Pre-grant Detail Description Text (2013)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2012",
+    "description": "Pre-grant Detail Description Text (2012)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2011",
+    "description": "Pre-grant Detail Description Text (2011)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2010",
+    "description": "Pre-grant Detail Description Text (2010)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2009",
+    "description": "Pre-grant Detail Description Text (2009)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2008",
+    "description": "Pre-grant Detail Description Text (2008)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2007",
+    "description": "Pre-grant Detail Description Text (2007)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2006",
+    "description": "Pre-grant Detail Description Text (2006)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2005",
+    "description": "Pre-grant Detail Description Text (2005)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2004",
+    "description": "Pre-grant Detail Description Text (2004)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2003",
+    "description": "Pre-grant Detail Description Text (2003)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2002",
+    "description": "Pre-grant Detail Description Text (2002)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_detail_desc_text_2001",
+    "description": "Pre-grant Detail Description Text (2001)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2024",
+    "description": "Pre-grant Draw Description Text (2024)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2023",
+    "description": "Pre-grant Draw Description Text (2023)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2022",
+    "description": "Pre-grant Draw Description Text (2022)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2021",
+    "description": "Pre-grant Draw Description Text (2021)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2020",
+    "description": "Pre-grant Draw Description Text (2020)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2019",
+    "description": "Pre-grant Draw Description Text (2019)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2018",
+    "description": "Pre-grant Draw Description Text (2018)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2017",
+    "description": "Pre-grant Draw Description Text (2017)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2016",
+    "description": "Pre-grant Draw Description Text (2016)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2015",
+    "description": "Pre-grant Draw Description Text (2015)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2014",
+    "description": "Pre-grant Draw Description Text (2014)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2013",
+    "description": "Pre-grant Draw Description Text (2013)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2012",
+    "description": "Pre-grant Draw Description Text (2012)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2011",
+    "description": "Pre-grant Draw Description Text (2011)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2010",
+    "description": "Pre-grant Draw Description Text (2010)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2009",
+    "description": "Pre-grant Draw Description Text (2009)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2008",
+    "description": "Pre-grant Draw Description Text (2008)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pregrant_pg_draw_desc_text_2007",
+    "description": "Pre-grant Draw Description Text (2007)",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_applicant_not_disambiguated",
+    "description": "Raw information on non-inventor applicants.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_assignee_disambiguated",
+    "description": "Disambiguated assignee information for pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_assignee_not_disambiguated",
+    "description": "Raw assignee information for pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_cpc_at_issue",
+    "description": "CPC classification data for all applications at the time of submission.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_cpc_current",
+    "description": "Current CPC classification data for all applications (applied retrospectively to all applications).",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_cpc_title",
+    "description": "This table is identical to g_cpc_title, provided here for ease of access. CPC group classification at issue of the granted patent.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_foreign_priority",
+    "description": "Foreign priority data for pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_gov_interest",
+    "description": "Mapping of patent numbers to raw government interest text",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_gov_interest_contracts",
+    "description": "Mapping of Federal contract award numbers to patent numbers",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_gov_interest_org",
+    "description": "Federal agencies with government interests in patents",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_granted_pgpubs_crosswalk",
+    "description": "Table mapping patent application's to their corresponding granted patent numbers",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_inventor_disambiguated",
+    "description": "Disambiguated inventor information from pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_inventor_not_disambiguated",
+    "description": "Raw inventor information from pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_ipc_at_issue",
+    "description": "International Patent Classification data for all applications (as of application date).",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_location_disambiguated",
+    "description": "Disambiguated location data for inventors, assignees, and applicants",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_location_not_disambiguated",
+    "description": "Raw location data, including latitude and longitude for pre-granted published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_pct_data",
+    "description": "PCT (Patent Cooperation Treaty) or regional filing data for pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_persistent_assignee",
+    "description": "This table tracks how assignee unique IDs change from update to update",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_persistent_inventor",
+    "description": "This table tracks how inventor unique IDs change from update to update",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_published_application",
+    "description": "Published application data.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_published_application_abstract",
+    "description": "Abstract data for published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_rel_app_text",
+    "description": "Descriptions of related patent applications for pre-grant published applications.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_us_rel_doc",
+    "description": "U.S. related documents (post-2005 applications only).",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_uspc_at_issue",
+    "description": "USPC classification data for pre-grant published applications at application.",
+    "url": "https://"
+  },
+  {
+    "table_name": "pg_wipo_technology",
+    "description": "WIPO technology classification of pre-grant published applications.",
+    "url": "https://"
+  }
+]
