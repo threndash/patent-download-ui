@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/patent-download-ui/static/css/main.106c5d02.css",
-    "main.js": "/patent-download-ui/static/js/main.0eb90726.js",
+    "main.js": "/patent-download-ui/static/js/main.56afc076.js",
     "static/js/453.583ec5b3.chunk.js": "/patent-download-ui/static/js/453.583ec5b3.chunk.js",
     "index.html": "/patent-download-ui/index.html",
     "main.106c5d02.css.map": "/patent-download-ui/static/css/main.106c5d02.css.map",
-    "main.0eb90726.js.map": "/patent-download-ui/static/js/main.0eb90726.js.map",
+    "main.56afc076.js.map": "/patent-download-ui/static/js/main.56afc076.js.map",
     "453.583ec5b3.chunk.js.map": "/patent-download-ui/static/js/453.583ec5b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.106c5d02.css",
-    "static/js/main.0eb90726.js"
+    "static/js/main.56afc076.js"
   ]
 }
