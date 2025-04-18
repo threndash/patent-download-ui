@@ -1,0 +1,626 @@
+{
+  "granted": {
+    "People": [
+      {
+        "table_name": "g_applicant_not_disambiguated",
+        "description": "Raw information on non-inventor applicants",
+        "path": "data-download-tables/g_applicant_not_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1EE2-Yjec2H9bwpL9N50qof14ovegAfcI/view?usp=drivesdk",
+        "displayName": "Applicant Not Disambiguated"
+      },
+      {
+        "table_name": "g_assignee_disambiguated",
+        "description": "Disambiguated assignee data for granted patents.",
+        "path": "data-download-tables/g_assignee_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1dBgiiZROl5tYvGwSCiGBMtAr4se5t9QQ/view?usp=drivesdk",
+        "displayName": "Assignee Disambiguated"
+      },
+      {
+        "table_name": "g_assignee_not_disambiguated",
+        "description": "Raw assignee data for granted patents.",
+        "path": "data-download-tables/g_assignee_not_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1cT1L74J36lwuQm3iCWbcNewh1TkWS9xM/view?usp=drivesdk",
+        "displayName": "Assignee Not Disambiguated"
+      },
+      {
+        "table_name": "g_attorney_disambiguated",
+        "description": "Disambiguated lawyer data for granted patents.",
+        "path": "data-download-tables/g_attorney_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1LSuedQFcGh7IinZaQ3jMPTgb60JkYNEP/view?usp=drivesdk",
+        "displayName": "Attorney Disambiguated"
+      },
+      {
+        "table_name": "g_attorney_not_disambiguated",
+        "description": "Raw lawyer data for granted patents.",
+        "path": "data-download-tables/g_attorney_not_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1jEKElh37nbdXs6pNXMS-RAk6nIJh3m70/view?usp=drivesdk",
+        "displayName": "Attorney Not Disambiguated"
+      },
+      {
+        "table_name": "g_examiner_not_disambiguated",
+        "description": "Raw information about the examiner for granted patents.",
+        "path": "data-download-tables/g_examiner_not_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/105VrYOjFthyN_bY3BlGiMDj5CRp4P7CB/view?usp=drivesdk",
+        "displayName": "Examiner Not Disambiguated"
+      },
+      {
+        "table_name": "g_inventor_disambiguated",
+        "description": "Disambiguated inventor data for granted patents.",
+        "path": "data-download-tables/g_inventor_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1W4XA3LpctYxoSIyvThYTpstjxYn7rrpN/view?usp=drivesdk",
+        "displayName": "Inventor Disambiguated"
+      },
+      {
+        "table_name": "g_inventor_not_disambiguated",
+        "description": "Raw inventor data for granted patents.",
+        "path": "data-download-tables/g_inventor_not_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1CZ0AT9fs2ayeYl4qt47mfONpIhAyPVXQ/view?usp=drivesdk",
+        "displayName": "Inventor Not Disambiguated"
+      },
+      {
+        "table_name": "g_persistent_assignee",
+        "description": "Persistent Assignee Disambiguation, connecting past update assignee ids to current ids.",
+        "path": "data-download-tables/g_persistent_assignee.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1osieiB5IupRZoI426NobHTwgKG_gDcb1/view?usp=drivesdk",
+        "displayName": "Persistent Assignee"
+      },
+      {
+        "table_name": "g_persistent_inventor",
+        "description": "Persistent Inventor Disambiguation, connection from past data update inventor ids to current ids.",
+        "path": "data-download-tables/g_persistent_inventor.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1-SbFpESYla1V_jL5vqHhsNX0Z5yWZhQx/view?usp=drivesdk",
+        "displayName": "Persistent Inventor"
+      }
+    ],
+    "Classification": [
+      {
+        "table_name": "g_cpc_at_issue",
+        "description": "CPC classification data for granted patents at the time of their issue.",
+        "path": "data-download-tables/g_cpc_at_issue.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1-3VxZdsRy5P7mnBGBCNL_27H_uSCzXNJ/view?usp=drivesdk",
+        "displayName": "Cpc At Issue"
+      },
+      {
+        "table_name": "g_cpc_current",
+        "description": "Current CPC classifications of granted patents.",
+        "path": "data-download-tables/g_cpc_current.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1gLv06hxg3pmcFIF2E6LtTkyT5romiAwq/view?usp=drivesdk",
+        "displayName": "Cpc Current"
+      },
+      {
+        "table_name": "g_cpc_title",
+        "description": "CPC group classification at issue of the granted patent.",
+        "path": "data-download-tables/g_cpc_title.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1Gd-3rmKa3kS5SG8viasc2Tjwr6p9UKY0/view?usp=drivesdk",
+        "displayName": "Cpc Title"
+      },
+      {
+        "table_name": "g_ipc_at_issue",
+        "description": "International Patent Classification data for all patents (as of publication date).",
+        "path": "data-download-tables/g_ipc_at_issue.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1fBak7DvDGk03ZL4oaKKPyMfm2oT-UX5T/view?usp=drivesdk",
+        "displayName": "Ipc At Issue"
+      },
+      {
+        "table_name": "g_uspc_at_issue",
+        "description": "USPC classification data for all granted patents at issue.",
+        "path": "data-download-tables/g_uspc_at_issue.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1r4m5qSWg3CAjb-BnocYEtPuB_VJsWfZj/view?usp=drivesdk",
+        "displayName": "Uspc At Issue"
+      },
+      {
+        "table_name": "g_wipo_technology",
+        "description": "WIPO technology classification of the patent for granted patents.",
+        "path": "data-download-tables/g_wipo_technology.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1rAA6PHg9mAixpAmeWFAULY_p7t71MzoN/view?usp=drivesdk",
+        "displayName": "Wipo Technology"
+      }
+    ],
+    "Content": [
+      {
+        "table_name": "g_patent_abstract",
+        "description": "Abstract data for granted patents.",
+        "path": "data-download-tables/g_patent_abstract.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1l94sPpcMWY6-mzhOrY-9wJj6fh8V8WB8/view?usp=drivesdk",
+        "displayName": "Patent Abstract"
+      }
+    ],
+    "Geography": [
+      {
+        "table_name": "g_location_disambiguated",
+        "description": "Disambiguated location data, including latitude and longitude for granted patents.",
+        "path": "data-download-tables/g_location_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/114On1gxfulXBXya9jPbRmQdSFX5UIUuk/view?usp=drivesdk",
+        "displayName": "Location Disambiguated"
+      },
+      {
+        "table_name": "g_location_not_disambiguated",
+        "description": "Raw location data, including latitude and longitude for granted patents.",
+        "path": "data-download-tables/g_location_not_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1iQXfstAHcFL4q1AWbbu1BAsTq7SjfWwf/view?usp=drivesdk",
+        "displayName": "Location Not Disambiguated"
+      }
+    ],
+    "Citations": [
+      {
+        "table_name": "g_foreign_citation",
+        "description": "Citations made to foreign patents by granted U.S. patents.",
+        "path": "data-download-tables/g_foreign_citation.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1dNupB4fg7l53Ja-Eo2LN2t-tfdBdc64b/view?usp=drivesdk",
+        "displayName": "Foreign Citation"
+      },
+      {
+        "table_name": "g_other_reference",
+        "description": "Non-patent citations (e.g. articles, papers, etc.) mentioned in granted patents.",
+        "path": "data-download-tables/g_other_reference.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1Xh3z-QI2ma8AclGgfM3VelVAlD9ecmHB/view?usp=drivesdk",
+        "displayName": "Other Reference"
+      },
+      {
+        "table_name": "g_us_application_citation",
+        "description": "Citations made to U.S. patent applications by U.S. patents.",
+        "path": "data-download-tables/g_us_application_citation.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1HgpID94znxKwk9Cu5cw5sMSsYzyYNF3t/view?usp=drivesdk",
+        "displayName": "Us Application Citation"
+      },
+      {
+        "table_name": "g_us_patent_citation",
+        "description": "Citations made to U.S. granted patents by U.S. patents.",
+        "path": "data-download-tables/g_us_patent_citation.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1ClAZ5fcallZHH3bgQG-TkaZ7aRLbwUgb/view?usp=drivesdk",
+        "displayName": "Us Patent Citation"
+      }
+    ],
+    "Government": [
+      {
+        "table_name": "g_gov_interest",
+        "description": "Mapping of patent numbers to raw government interest text",
+        "path": "data-download-tables/g_gov_interest.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1Qs-3eKX66p-m5tzOrYULHLdKFkORd2CR/view?usp=drivesdk",
+        "displayName": "Gov Interest"
+      },
+      {
+        "table_name": "g_gov_interest_contracts",
+        "description": "Mapping of Federal contract award numbers to patent numbers",
+        "path": "data-download-tables/g_gov_interest_contracts.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1sMF-u7d_16ENfaNtE4rIC4GMQpfzWS1e/view?usp=drivesdk",
+        "displayName": "Gov Interest Contracts"
+      },
+      {
+        "table_name": "g_gov_interest_org",
+        "description": "Federal agencies with government interests in patents",
+        "path": "data-download-tables/g_gov_interest_org.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/12YzBO90YA1pZdFK-0txgkdjSMu80POqz/view?usp=drivesdk",
+        "displayName": "Gov Interest Org"
+      }
+    ],
+    "Legal": [
+      {
+        "table_name": "g_foreign_priority",
+        "description": "Information about an earlier patent filing in a foreign country which gives the claim priority.",
+        "path": "data-download-tables/g_foreign_priority.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1-OXfRCsL5C403E_F5y7kiXnnmWLSuqRC/view?usp=drivesdk",
+        "displayName": "Foreign Priority"
+      },
+      {
+        "table_name": "g_pct_data",
+        "description": "PCT (Patent Cooperation Treaty) or regional filing data for granted patents.",
+        "path": "data-download-tables/g_pct_data.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1BpbR0hGVLYlOfyf_c-XdO4NAE77bKjyU/view?usp=drivesdk",
+        "displayName": "Pct Data"
+      },
+      {
+        "table_name": "g_rel_app_text",
+        "description": "Descriptions of related patent applications.",
+        "path": "data-download-tables/g_rel_app_text.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1Nj5xZ0AQbt3HVF-kczqgLw83fUzCoJly/view?usp=drivesdk",
+        "displayName": "Rel App Text"
+      },
+      {
+        "table_name": "g_us_rel_doc",
+        "description": "U.S. related documents for granted patents from 2002 and after.",
+        "path": "data-download-tables/g_us_rel_doc.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1RBLOl7RrWUgDuLwDzMIHUceeUruDDZzE/view?usp=drivesdk",
+        "displayName": "Us Rel Doc"
+      },
+      {
+        "table_name": "g_us_term_of_grant",
+        "description": "U.S. term of grant data.",
+        "path": "data-download-tables/g_us_term_of_grant.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1BpSHcL4YM2HFO_CfEnhejNDenG7iNbXo/view?usp=drivesdk",
+        "displayName": "Us Term Of Grant"
+      }
+    ],
+    "Other": [
+      {
+        "table_name": "g_application",
+        "description": "Information on the applications for granted patent.",
+        "path": "data-download-tables/g_application.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/14pHtNJseBG0JOs9UzFn36-YgEXhiAOgw/view?usp=drivesdk",
+        "displayName": "Application"
+      },
+      {
+        "table_name": "g_botanic",
+        "description": "Information about granted plant patents.",
+        "path": "data-download-tables/g_botanic.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1DCHjpgxm724COIna97QEC0dmIQYpAt1o/view?usp=drivesdk",
+        "displayName": "Botanic"
+      },
+      {
+        "table_name": "g_figures",
+        "description": "Number of figures and drawing sheets included with the granted patent.",
+        "path": "data-download-tables/g_figures.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/11-pVS31MPken44jE3KD_12-I6IM6luFW/view?usp=drivesdk",
+        "displayName": "Figures"
+      },
+      {
+        "table_name": "g_patent",
+        "description": "Data on granted patents.",
+        "path": "data-download-tables/g_patent.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1B0rxxf4K3qufm0C7uAbvoTYcZRFT1JCZ/view?usp=drivesdk",
+        "displayName": "Patent"
+      }
+    ]
+  },
+  "pregrant": {
+    "People": [
+      {
+        "table_name": "pg_applicant_not_disambiguated",
+        "description": "Raw information on non-inventor applicants.",
+        "path": "pg-download-tables/pg_applicant_not_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/19WKeFFR-1tqNA7tDozjBOYDZdAy9gKYS/view?usp=drivesdk",
+        "displayName": "Applicant Not Disambiguated"
+      },
+      {
+        "table_name": "pg_assignee_disambiguated",
+        "description": "Disambiguated assignee information for pre-grant published applications.",
+        "path": "pg-download-tables/pg_assignee_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1KHtyESnYQJ19bkXpjFKarQncqTz5WKIR/view?usp=drivesdk",
+        "displayName": "Assignee Disambiguated"
+      },
+      {
+        "table_name": "pg_assignee_not_disambiguated",
+        "description": "Raw assignee information for pre-grant published applications.",
+        "path": "pg-download-tables/pg_assignee_not_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1z963fftJrBg8KnlnicC2spUAipr5C6CZ/view?usp=drivesdk",
+        "displayName": "Assignee Not Disambiguated"
+      },
+      {
+        "table_name": "pg_inventor_disambiguated",
+        "description": "Disambiguated inventor information from pre-grant published applications.",
+        "path": "pg-download-tables/pg_inventor_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1Xj9XzTVpz81eELacm4SHN6F4EzIOrXW1/view?usp=drivesdk",
+        "displayName": "Inventor Disambiguated"
+      },
+      {
+        "table_name": "pg_inventor_not_disambiguated",
+        "description": "Raw inventor information from pre-grant published applications.",
+        "path": "pg-download-tables/pg_inventor_not_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/15Dku36Z357QrmICPR1P3HxozqxS1LYIS/view?usp=drivesdk",
+        "displayName": "Inventor Not Disambiguated"
+      },
+      {
+        "table_name": "pg_persistent_assignee",
+        "description": "This table tracks how assignee unique IDs change from update to update",
+        "path": "pg-download-tables/pg_persistent_assignee.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/12V-WpwkcTweqQS7kinpYc68Bs3UZbyDI/view?usp=drivesdk",
+        "displayName": "Persistent Assignee"
+      },
+      {
+        "table_name": "pg_persistent_inventor",
+        "description": "This table tracks how inventor unique IDs change from update to update",
+        "path": "pg-download-tables/pg_persistent_inventor.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1wVRYWsaPNll-4izoitOppbjdt8OkriNA/view?usp=drivesdk",
+        "displayName": "Persistent Inventor"
+      }
+    ],
+    "Classification": [
+      {
+        "table_name": "pg_cpc_at_issue",
+        "description": "CPC classification data for all applications at the time of submission.",
+        "path": "pg-download-tables/pg_cpc_at_issue.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1lc8ItiVdQkR3KOQk6PMbkeFEK3RB1bbx/view?usp=drivesdk",
+        "displayName": "Cpc At Issue"
+      },
+      {
+        "table_name": "pg_cpc_current",
+        "description": "Current CPC classification data for all applications (applied retrospectively to all applications).",
+        "path": "pg-download-tables/pg_cpc_current.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1YQAZEE-LlJHT-IoF1OOimpkR3Hctb-PT/view?usp=drivesdk",
+        "displayName": "Cpc Current"
+      },
+      {
+        "table_name": "pg_cpc_title",
+        "description": "This table is identical to g_cpc_title, provided here for ease of access. CPC group classification at issue of the granted patent.",
+        "path": "pg-download-tables/pg_cpc_title.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1-rFF6SPutlQEjaoOcFAKhK1quqPjFGiG/view?usp=drivesdk",
+        "displayName": "Cpc Title"
+      },
+      {
+        "table_name": "pg_ipc_at_issue",
+        "description": "International Patent Classification data for all applications (as of application date).",
+        "path": "pg-download-tables/pg_ipc_at_issue.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/105dB-ScNzJyw25BsuWwjs6gPaYBdKCNl/view?usp=drivesdk",
+        "displayName": "Ipc At Issue"
+      },
+      {
+        "table_name": "pg_uspc_at_issue",
+        "description": "USPC classification data for pre-grant published applications at application.",
+        "path": "pg-download-tables/pg_uspc_at_issue.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1KPFsjPzuxFJl1zMC2BuX0iGM98QFifne/view?usp=drivesdk",
+        "displayName": "Uspc At Issue"
+      },
+      {
+        "table_name": "pg_wipo_technology",
+        "description": "WIPO technology classification of pre-grant published applications.",
+        "path": "pg-download-tables/pg_wipo_technology.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/11dtlQD6oUloTpjqBaAukSjuxdtKQ42LB/view?usp=drivesdk",
+        "displayName": "Wipo Technology"
+      }
+    ],
+    "Content": [
+      {
+        "table_name": "pg_brf_sum_text_2001",
+        "description": "Pre-grant Brief Description Text (2001)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2001.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1vL65a_ILKF9SDQXfakdtw8bjnG9yQOcD/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2001"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2002",
+        "description": "Pre-grant Brief Description Text (2002)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2002.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1GFK_rq7y9fP7XHD1GLfzdPYJ2dNN8eFw/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2002"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2003",
+        "description": "Pre-grant Brief Description Text (2003)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2003.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1yfz7h4FlQD7W0zClL__uTey2nm4b0bNZ/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2003"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2004",
+        "description": "Pre-grant Brief Description Text (2004)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2004.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1_G_eREElJEG5wksJ58fQyNDHzK4v0Z6Z/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2004"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2005",
+        "description": "Pre-grant Brief Description Text (2005)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2005.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/16vu_HnFvDdSnKL0WkG2X_ybxvZ41FL0x/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2005"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2006",
+        "description": "Pre-grant Brief Description Text (2006)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2006.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1H08GFR4uPuiJeDuaYKtY59uaShnzp3Yt/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2006"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2007",
+        "description": "Pre-grant Brief Description Text (2007)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2007.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1KrsMNr0QAXaiuXicU3h38WCmOxoMulJs/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2007"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2008",
+        "description": "Pre-grant Brief Description Text (2008)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2008.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1NDGh5GP0klctSLbn1O_kLhLuhxhZVyz_/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2008"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2009",
+        "description": "Pre-grant Brief Description Text (2009)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2009.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1OpBe33DMIovCtB3ZhFJEZI4TScTTo9zE/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2009"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2010",
+        "description": "Pre-grant Brief Description Text (2010)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2010.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1oq_9cjsxX5F2pjeW0AqDw8CReVyMU8n9/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2010"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2011",
+        "description": "Pre-grant Brief Description Text (2011)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2011.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1XBYxIJ5xBmFasHlIZx1FYCTZG7t1BSHD/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2011"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2012",
+        "description": "Pre-grant Brief Description Text (2012)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2012.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1myhqmXuEidJOgzE_j93SUIY_PXFFYhIF/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2012"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2013",
+        "description": "Pre-grant Brief Description Text (2013)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2013.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1f0KHZIqnnMaPt1g7_OInZ8CoFXEEPOow/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2013"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2014",
+        "description": "Pre-grant Brief Description Text (2014)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2014.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1g42LgfLRUyazJQJvOO8nlt-T73qlcBau/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2014"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2015",
+        "description": "Pre-grant Brief Description Text (2015)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2015.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1oOUhMq_YhK9SpGC9LGI1qwRMwfL42ATS/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2015"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2016",
+        "description": "Pre-grant Brief Description Text (2016)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2016.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1q4Kp1xXGaz4QwDVAkkgBkF65WPQ8-txO/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2016"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2017",
+        "description": "Pre-grant Brief Description Text (2017)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2017.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1McB-3pU_OZwL6Zc1w_ymA7un67ie8KvJ/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2017"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2018",
+        "description": "Pre-grant Brief Description Text (2018)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2018.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1L-_LTAfX_e5Vp5mzCQCG4Io1zEZm3uHO/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2018"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2019",
+        "description": "Pre-grant Brief Description Text (2019)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2019.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/13aOM5jarr6rd1367i33fW6A14va3qg0Z/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2019"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2020",
+        "description": "Pre-grant Brief Description Text (2020)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2020.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1ZExGoXR4uQ-hvenFXucCyKU6Gq1dtWwv/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2020"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2021",
+        "description": "Pre-grant Brief Description Text (2021)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2021.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/10lu4Y0W9f0bTutJhNQVCjsH1qWHwhWh6/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2021"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2022",
+        "description": "Pre-grant Brief Description Text (2022)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2022.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1I3tFCzjpS1JsWoSsXrF5zIhT6YELdlzj/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2022"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2023",
+        "description": "Pre-grant Brief Description Text (2023)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2023.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/14L7MUIm4WFr3R2vRghEK1s91QvoQdQIU/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2023"
+      },
+      {
+        "table_name": "pg_brf_sum_text_2024",
+        "description": "Pre-grant Brief Description Text (2024)",
+        "path": "pg_brf_sum_text/pg_brf_sum_text_2024.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/12qPuHwfvw4J-x7N95UP8-lwCGHXnoo1S/view?usp=drivesdk",
+        "displayName": "Brf Sum Text 2024"
+      },
+      {
+        "table_name": "pg_published_application_abstract",
+        "description": "Abstract data for published applications.",
+        "path": "pg-download-tables/pg_published_application_abstract.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1par2d-IevfYupe9BAWdS9-CAYmU2Oi7K/view?usp=drivesdk",
+        "displayName": "Published Application Abstract"
+      }
+    ],
+    "Geography": [
+      {
+        "table_name": "pg_location_disambiguated",
+        "description": "Disambiguated location data for inventors, assignees, and applicants",
+        "path": "pg-download-tables/pg_location_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1QDLMvC6ER3hnL3aRSb_u14sbYqc9cfX-/view?usp=drivesdk",
+        "displayName": "Location Disambiguated"
+      },
+      {
+        "table_name": "pg_location_not_disambiguated",
+        "description": "Raw location data, including latitude and longitude for pre-granted published applications.",
+        "path": "pg-download-tables/pg_location_not_disambiguated.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1PAtmNJM86KUMiCHC6ja0ka_m1RGAaXJY/view?usp=drivesdk",
+        "displayName": "Location Not Disambiguated"
+      }
+    ],
+    "Government": [
+      {
+        "table_name": "pg_gov_interest",
+        "description": "Mapping of patent numbers to raw government interest text",
+        "path": "pg-download-tables/pg_gov_interest.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1SIGzNqSBix-g5RMrpV-Q_x4IIvpVFgql/view?usp=drivesdk",
+        "displayName": "Gov Interest"
+      },
+      {
+        "table_name": "pg_gov_interest_contracts",
+        "description": "Mapping of Federal contract award numbers to patent numbers",
+        "path": "pg-download-tables/pg_gov_interest_contracts.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1UxocCFDJ6EjU7R5pmXBJsPK46KGRQFmQ/view?usp=drivesdk",
+        "displayName": "Gov Interest Contracts"
+      },
+      {
+        "table_name": "pg_gov_interest_org",
+        "description": "Federal agencies with government interests in patents",
+        "path": "pg-download-tables/pg_gov_interest_org.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1SwNo2t8enV61FaL_oLaZDy3xxT_6ESH_/view?usp=drivesdk",
+        "displayName": "Gov Interest Org"
+      }
+    ],
+    "Legal": [
+      {
+        "table_name": "pg_foreign_priority",
+        "description": "Foreign priority data for pre-grant published applications.",
+        "path": "pg-download-tables/pg_foreign_priority.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1EnFtxiSRCRUApVUzkgmBcgWy8JOCB3aT/view?usp=drivesdk",
+        "displayName": "Foreign Priority"
+      },
+      {
+        "table_name": "pg_pct_data",
+        "description": "PCT (Patent Cooperation Treaty) or regional filing data for pre-grant published applications.",
+        "path": "pg-download-tables/pg_pct_data.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1cbqN49yqjmiDv61cRQ7UlVHhhV0PWMPB/view?usp=drivesdk",
+        "displayName": "Pct Data"
+      },
+      {
+        "table_name": "pg_rel_app_text",
+        "description": "Descriptions of related patent applications for pre-grant published applications.",
+        "path": "pg-download-tables/pg_rel_app_text.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1aVnt6wM3xc5HAa_GY1mQj-LAXdWerEe6/view?usp=drivesdk",
+        "displayName": "Rel App Text"
+      },
+      {
+        "table_name": "pg_us_rel_doc",
+        "description": "U.S. related documents (post-2005 applications only).",
+        "path": "pg-download-tables/pg_us_rel_doc.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1B2qCwv5472KFTyePvYbvJY6jjfPPsEjN/view?usp=drivesdk",
+        "displayName": "Us Rel Doc"
+      }
+    ],
+    "Mapping": [
+      {
+        "table_name": "pg_granted_pgpubs_crosswalk",
+        "description": "Table mapping patent application's to their corresponding granted patent numbers",
+        "path": "pg-download-tables/pg_granted_pgpubs_crosswalk.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1PU0-hhNqgNN-pCPpBCGykMDdjfCIWCan/view?usp=drivesdk",
+        "displayName": "Granted Pgpubs Crosswalk"
+      }
+    ],
+    "Other": [
+      {
+        "table_name": "pg_published_application",
+        "description": "Published application data.",
+        "path": "pg-download-tables/pg_published_application.tsv.zip",
+        "shareable_link": "https://drive.google.com/file/d/1O0aLAxDg8gL78ZdysLxM-BPMJZ6oShIN/view?usp=drivesdk",
+        "displayName": "Published Application"
+      }
+    ]
+  }
+}
