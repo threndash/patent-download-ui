@@ -360,6 +360,12 @@
     "shareable_link": "https://drive.google.com/file/d/11dtlQD6oUloTpjqBaAukSjuxdtKQ42LB/view?usp=drivesdk"
   },
   {
+    "table_name": "g_brf_sum_text_2025",
+    "description": "Granted Patents Brief Summary Text (2025)",
+    "path": "g_brf_sum_text/g_brf_sum_text_2025.tsv.zip",
+    "shareable_link": "https://drive.google.com/file/d/14e2TUecEQ0ydaqh8wBU7QPbyj230sAfD/view?usp=drivesdk"
+  },
+  {
     "table_name": "g_brf_sum_text_2024",
     "description": "Granted Patents Brief Summary Text (2024)",
     "path": "g_brf_sum_text/g_brf_sum_text_2024.tsv.zip",
@@ -652,6 +658,12 @@
     "description": "Granted Patents Brief Summary Text (1976)",
     "path": "g_brf_sum_text/g_brf_sum_text_1976.tsv.zip",
     "shareable_link": "https://drive.google.com/file/d/1W_rtyf16J2VSuiBrDLK2XkMEzLf0-4Cv/view?usp=drivesdk"
+  },
+  {
+    "table_name": "g_claims_2025",
+    "description": "Granted Patents Claims (2025)",
+    "path": "g_claims/g_claims_2025.tsv.zip",
+    "shareable_link": "https://drive.google.com/file/d/1wm3a5n9Oq4FmWbanXOU_LkIOr4SY9zTt/view?usp=drivesdk"
   },
   {
     "table_name": "g_claims_2024",
@@ -948,6 +960,12 @@
     "shareable_link": "https://drive.google.com/file/d/1yL1wmiwavWL8-oFugxgUtZ3yRbqv5moO/view?usp=drivesdk"
   },
   {
+    "table_name": "g_detail_desc_text_2025",
+    "description": "Granted Patents Detail Description Text (2025)",
+    "path": "g_detail_desc_text/g_detail_desc_text_2025.tsv.zip",
+    "shareable_link": "https://drive.google.com/file/d/1YRXNqHLXg6Tq8cNvkg10EkUzWjdmX83I/view?usp=drivesdk"
+  },
+  {
     "table_name": "g_detail_desc_text_2024",
     "description": "Granted Patents Detail Description Text (2024)",
     "path": "g_detail_desc_text/g_detail_desc_text_2024.tsv.zip",
@@ -1240,6 +1258,12 @@
     "description": "Granted Patents Detail Description Text (1976)",
     "path": "g_detail_desc_text/g_detail_desc_text_1976.tsv.zip",
     "shareable_link": "https://drive.google.com/file/d/1cqdQLhmMmZDMVvPuVbWlE0tR5EU54cPF/view?usp=drivesdk"
+  },
+  {
+    "table_name": "g_draw_desc_text_2025",
+    "description": "Granted Patents Draw Description Text (2025)",
+    "path": "g_draw_desc_text/g_draw_desc_text_2025.tsv.zip",
+    "shareable_link": "https://drive.google.com/file/d/16Z44KHgQ-rctTOPU9R0-6jc4dZ19Nylb/view?usp=drivesdk"
   },
   {
     "table_name": "g_draw_desc_text_2024",
@@ -1536,6 +1560,12 @@
     "shareable_link": "https://drive.google.com/file/d/1mkKr82gMVRPsHuK9-Og8bgm4Uri70yCB/view?usp=drivesdk"
   },
   {
+    "table_name": "pg_brf_sum_text_2025",
+    "description": "Pre-grant Brief Description Text (2025)",
+    "path": "pg_brf_sum_text/pg_brf_sum_text_2025.tsv.zip",
+    "shareable_link": "https://drive.google.com/file/d/1ARBVyUYGonpLTnpVgTDa5HUqcGtxLpnk/view?usp=drivesdk"
+  },
+  {
     "table_name": "pg_brf_sum_text_2024",
     "description": "Pre-grant Brief Description Text (2024)",
     "path": "pg_brf_sum_text/pg_brf_sum_text_2024.tsv.zip",
@@ -1678,6 +1708,12 @@
     "description": "Pre-grant Brief Description Text (2001)",
     "path": "pg_brf_sum_text/pg_brf_sum_text_2001.tsv.zip",
     "shareable_link": "https://drive.google.com/file/d/1vL65a_ILKF9SDQXfakdtw8bjnG9yQOcD/view?usp=drivesdk"
+  },
+  {
+    "table_name": "pg_claims_2025",
+    "description": "Pre-grant Claims (2025)",
+    "path": "pg_claims/pg_claims_2025.tsv.zip",
+    "shareable_link": "https://drive.google.com/file/d/1_dJExecBL9yRLFfuVAHC0zbSshg0csJN/view?usp=drivesdk"
   },
   {
     "table_name": "pg_claims_2024",
@@ -1824,6 +1860,12 @@
     "shareable_link": "https://drive.google.com/file/d/1r_NaLNxB6AOBtNRz6Uu9rsylsmEyNGeS/view?usp=drivesdk"
   },
   {
+    "table_name": "pg_detail_desc_text_2025",
+    "description": "Pre-grant Detail Description Text (2025)",
+    "path": "pg_detail_desc_text/pg_detail_desc_text_2025.tsv.zip",
+    "shareable_link": "https://drive.google.com/file/d/1MVfBGWd3wu4Jst2WVQsrXvrvuMhkDkb2/view?usp=drivesdk"
+  },
+  {
     "table_name": "pg_detail_desc_text_2024",
     "description": "Pre-grant Detail Description Text (2024)",
     "path": "pg_detail_desc_text/pg_detail_desc_text_2024.tsv.zip",
@@ -1966,6 +2008,12 @@
     "description": "Pre-grant Detail Description Text (2001)",
     "path": "pg_detail_desc_text/pg_detail_desc_text_2001.tsv.zip",
     "shareable_link": "https://drive.google.com/file/d/1Z8s7tnGu6MYTX1-J0dmkauK9jeAYXDW6/view?usp=drivesdk"
+  },
+  {
+    "table_name": "pg_draw_desc_text_2025",
+    "description": "Pre-grant Draw Description Text (2025)",
+    "path": "pg_draw_desc_text/pg_draw_desc_text_2025.tsv.zip",
+    "shareable_link": "https://drive.google.com/file/d/1ysVaJ6N8uixzq5lvfayFcqxza6OzSXgF/view?usp=drivesdk"
   },
   {
     "table_name": "pg_draw_desc_text_2024",

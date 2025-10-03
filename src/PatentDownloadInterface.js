@@ -1,5 +1,32 @@
 import { useState, useEffect } from 'react';
 
+// Load the raw data from GitHub or local file
+  const getRawData = async () => {
+    try {
+      // Try window.fs first (for development environment)
+      if (window.fs && typeof window.fs.readFile === 'function') {
+        try {
+          const response = await window.fs.readFile('links.json', { encoding: 'utf8' });
+          return JSON.parse(response);
+        } catch (fsError) {
+          console.warn('Could not read file using window.fs:', fsError);
+          // Continue to fallback
+        }
+      }
+      
+      // Fetch from GitHub raw URL
+      const response = await fetch('https://raw.githubusercontent.com/threndash/patent-download-ui/refs/heads/main/links.json');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error reading links.json:', error);
+      return [];
+    }
+  };
+
 const PatentDownloadInterface = () => {
   // Content type color schemes for visual distinction
   const contentTypeColors = {
@@ -123,23 +150,54 @@ const PatentDownloadInterface = () => {
     return result;
   };
 
-  // Process the raw data into a structured format
+  // Process the raw data into a structured format with Essentials category
   const processData = (rawData) => {
     // First, categorize each item
     const categorizedItems = rawData.map(categorizeItem);
     
     // Then, split by patent type and category
     const result = {
-      granted: {},
-      pregrant: {}
+      granted: {
+        Essentials: [] // Initialize Essentials category
+      },
+      pregrant: {
+        Essentials: [] // Initialize Essentials category
+      }
     };
     
+    // Define the essential files we want in the "Essentials" category
+    const essentialFiles = [
+      "g_assignee_disambiguated", 
+      "g_inventor_disambiguated",
+      "g_cpc_at_issue", 
+      "g_location_disambiguated",
+      "g_us_patent_citation",
+      "g_application",
+      "g_patent",
+      "pg_assignee_disambiguated", 
+      "pg_inventor_disambiguated",
+      "pg_cpc_at_issue", 
+      "pg_location_disambiguated",
+      "pg_published_application"
+    ];
+    
+    // Process each item
     categorizedItems.forEach(item => {
+      // First check if this is an essential file
+      const isEssential = essentialFiles.includes(item.table_name);
+      
+      // Make sure the category exists in the result
       if (!result[item.type][item.category]) {
         result[item.type][item.category] = [];
       }
       
+      // Add to the normal category
       result[item.type][item.category].push(item);
+      
+      // If it's an essential file, also add to Essentials
+      if (isEssential) {
+        result[item.type].Essentials.push(item);
+      }
     });
     
     // Organize People, Geography categories into disambiguation groups
@@ -311,28 +369,6 @@ const PatentDownloadInterface = () => {
     return tab === 'granted' ? 'Granted Patents' : 'Pre-grant Applications';
   };
 
-  // Load the raw data from the window object or fetch
-  const getRawData = async () => {
-    try {
-      // Try window.fs first (for development environment)
-      if (window.fs && typeof window.fs.readFile === 'function') {
-        const response = await window.fs.readFile('links.json', { encoding: 'utf8' });
-        return JSON.parse(response);
-      }
-      
-      // Fallback to standard fetch API
-      const response = await fetch('links.json');
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const data = await response.json();
-      return data;
-    } catch (error) {
-      console.error('Error reading links.json:', error);
-      return [];
-    }
-  };
-
   // Load data on component mount
   useEffect(() => {
     const loadData = async () => {
@@ -341,13 +377,13 @@ const PatentDownloadInterface = () => {
         const processedData = processData(rawData);
         setData(processedData);
         
-        // Set all groups to expanded by default
+        // Set all groups to expanded by default, except Content
         const initialExpandedState = {};
         Object.keys(processedData.granted).forEach(category => {
-          initialExpandedState[category] = true;
+          initialExpandedState[category] = category !== "Content"; // Content starts collapsed
         });
         Object.keys(processedData.pregrant).forEach(category => {
-          initialExpandedState[category] = true;
+          initialExpandedState[category] = category !== "Content"; // Content starts collapsed
         });
         setExpandedGroups(initialExpandedState);
         
@@ -481,8 +517,8 @@ const PatentDownloadInterface = () => {
   
   // Define the preferred category order
   const categoryOrder = [
+    "Essentials", // Added Essentials category
     "General", 
-    "Content", 
     "People", 
     "Classification", 
     "Legal", 
@@ -491,7 +527,8 @@ const PatentDownloadInterface = () => {
     "Other Documentation", 
     "Citations", 
     "Mapping", 
-    "Other"
+    "Other",
+    "Content"  // Content at the end
   ];
   
   // Function to sort categories
